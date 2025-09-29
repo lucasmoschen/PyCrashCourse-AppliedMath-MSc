@@ -1,9 +1,10 @@
 # Python Crash Course for MSc Applied Mathematics
 
-This repository contains materials for a **6-hour crash course in Python**, designed for new MSc students in Applied Mathematics (Imperial College London) in 2025.  
+This repository contains materials for a **3-hour crash course in Python**, designed for new MSc students in Applied Mathematics (Imperial College London) in 2025.  
 The course assumes mixed backgrounds: some students may be completely new to Python, while others already have programming experience. 
 
-The aim is to get everyone comfortable with **core Python** and the **scientific Python ecosystem** (NumPy, SciPy, Pandas, Matplotlib), with direct links to **applied mathematics** problems.
+The goal is to get everyone comfortable with **core Python** and the **scientific Python ecosystem** (NumPy, Matplotlib), with direct links to applied mathematics problems. 
+Additional notebooks on **SciPy**, **Pandas**, and further practice exercises are provided for self-study.
 
 ---
 
@@ -11,31 +12,47 @@ The aim is to get everyone comfortable with **core Python** and the **scientific
 
 The course is divided into two 3-hour sessions:
 
-### Session 1 — Core Python & Scientific Basics
+### Live Session (3h) — Core Python & Scientific Basics
 
-- Python syntax, variables, data types
-- Control flow, functions, modules
-- NumPy arrays, vectorization, linear algebra
-- Random number generation & statistics
-- Plotting with Matplotlib
-- Exercises: factorial, dice simulation, linear systems, random sampling
+- Python syntax, variables, data types  
+- Control flow, functions, modules  
+- NumPy arrays, vectorization, linear algebra  
+- Random number generation & statistics  
+- Plotting with Matplotlib  
+- Exercises: factorial, dice simulation, linear systems, random sampling, histogram plotting  
 
-📄 Notebook: [`PythonCrashCourse_Session1.ipynb`](./PythonCrashCourse_Session1.ipynb)
+📄 Notebook: [`PythonCrashCourse_Session.ipynb`](./PythonCrashCourse_Session.ipynb)
 
 ---
 
-### Session 2 — Python for Applied Mathematics
+### Additional Materials — Self-Study
 
-- Recap quiz
-- SciPy: numerical integration, ODE solvers, optimization
-- Pandas: tabular data, statistics, plots
-- Object-oriented programming (OOP) for structuring solvers and models
-- Mini-projects:
-  - Monte Carlo estimation of $\pi$
-  - 1D Heat equation (finite difference)
-- Exercises: Gaussian integral, logistic growth, rolling mean, stability in PDE scheme
+These notes expand on the live session, covering tools you will need throughout the MSc:
 
-📄 Notebook: [`PythonCrashCourse_Session2.ipynb`](./PythonCrashCourse_Session2.ipynb)
+- SciPy: numerical integration, ODE solvers, optimisation  
+- Pandas: tabular data, statistics, plots  
+- Mini-projects:  
+  - Monte Carlo estimation of $\pi$  
+  - 1D Heat equation (finite difference)  
+
+📄 Notebook: [`Additional_Materials.ipynb`](./Additional_Materials.ipynb)
+
+---
+
+### Extra Exercises — Optional Practice
+
+For students who want to **go further** and explore additional Python features, an extra notebook is provided.  
+These exercises are not required but strongly recommended to build fluency.
+
+- List, dict, and set comprehensions  
+- Handling and normalizing strings  
+- Sets and membership performance  
+- Using `enumerate` and `zip`  
+- Generator expressions vs list comprehensions  
+- f-strings vs `.format()`  
+- Bonus `while` loop simulation  
+
+📄 Notebook: [`Extra_Exercises.ipynb`](./Extra_Exercises.ipynb)
 
 ---
 
