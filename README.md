@@ -1,6 +1,6 @@
 # Python Crash Course for MSc Applied Mathematics
 
-This repository contains materials for a **3-hour crash course in Python**, designed for new MSc students in Applied Mathematics (Imperial College London) in 2025.  
+This repository contains materials for a **3-hour live crash course in Python** + additionals, designed for new MSc students in Applied Mathematics (Imperial College London) in 2025.  
 The course assumes mixed backgrounds: some students may be completely new to Python, while others already have programming experience. 
 
 The goal is to get everyone comfortable with **core Python** and the **scientific Python ecosystem** (NumPy, Matplotlib), with direct links to applied mathematics problems. 
@@ -10,16 +10,13 @@ Additional notebooks on **SciPy**, **Pandas**, and further practice exercises ar
 
 ## Structure
 
-The course is divided into two 3-hour sessions:
-
-### Live Session (3h) — Core Python & Scientific Basics
+The live 3-hour session covers:
 
 - Python syntax, variables, data types  
 - Control flow, functions, modules  
 - NumPy arrays, vectorization, linear algebra  
 - Random number generation & statistics  
 - Plotting with Matplotlib  
-- Exercises: factorial, dice simulation, linear systems, random sampling, histogram plotting  
 
 📄 Notebook: [`PythonCrashCourse_Session.ipynb`](./PythonCrashCourse_Session.ipynb)
 
@@ -56,7 +53,7 @@ These exercises are not required but strongly recommended to build fluency.
 
 ---
 
-## 🛠️ Setup
+## Setup
 
 You can run the notebooks in two ways:
 
@@ -70,7 +67,7 @@ You can run the notebooks in two ways:
    jupyter notebook
    ```
 
-## 📚 References & Further Reading
+## References & Further Reading
 
 * [Python Tutorial](https://docs.python.org/3/tutorial/)
 * [NumPy Documentation](https://numpy.org/doc/stable/)
@@ -79,7 +76,7 @@ You can run the notebooks in two ways:
 * [Matplotlib Gallery](https://matplotlib.org/stable/gallery/)
 * [SciPy Lecture Notes](https://scipy-lectures.org/)
 
-## ✨ Credits
+## Credits
 
 Developed for the MSc Applied Mathematics induction at **Imperial College London**.
 Inspired by [sarabicego/PyCrashCourse2024](https://github.com/sarabicego/PyCrashCourse2024).
